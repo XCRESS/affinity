@@ -21,7 +21,10 @@ export default async function Login() {
       <div className={classes.heroImg}>
         <Link href="/">
           <Image
-          src="https://raw.githubusercontent.com/XCRESS/affinity/main/public/affinity-logo.svg" alt="logo" width={250} height={23}
+          src="https://raw.githubusercontent.com/XCRESS/affinity/main/public/affinity-logo.svg"
+          alt="logo"
+          width={250}
+          height={23}
           />
         </Link>
       </div>
