@@ -30,12 +30,12 @@ export default async function Login() {
       </div>
       <div className={classes.formWrapper}>
         <div className={classes.formContainer}>
-           <RenderParams className={classes.params}/>
+          <RenderParams className={classes.params}/> 
           <div className={classes.formTitle}>
             <h3>Welcome</h3>
           </div>
           <p>Please login here</p>
-          <LoginForm/>
+          <LoginForm/> 
         </div>
       </div>
     </section>
