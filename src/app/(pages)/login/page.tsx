@@ -24,7 +24,7 @@ export default async function Login() {
             src="https://raw.githubusercontent.com/XCRESS/affinity/main/public/affinity-logo.svg"
             alt="logo"
             width={250}
-           height={23}
+            height={23}
           />
         </Link>
       </div>
