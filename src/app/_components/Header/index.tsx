@@ -38,7 +38,6 @@ export async function Header() {
               className={classes.logo}
               alt=" Logo"
               src="https://raw.githubusercontent.com/XCRESS/affinity/main/public/affinity-logo.svg"
-              // src="https://raw.githubusercontent.com/payloadcms/payload/main/packages/payload/src/admin/assets/images/payload-logo-light.svg"
             />
           </Link>
           <HeaderNav header={header} />
