@@ -41,11 +41,7 @@ export async function Footer() {
             return <CMSLink key={i} {...link} />
           })}
           <Link href="/admin">Admin</Link>
-          <Link
-            href="https://github.com/XCRESS/affinity"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="https://github.com/XCRESS/affinity" target="_blank" rel="noopener noreferrer">
             Source Code
           </Link>
         </nav>
