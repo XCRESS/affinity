@@ -1,7 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
 
-import { Gutter } from '../../_components/Gutter'
 import { RenderParams } from '../../_components/RenderParams'
 import { getMeUser } from '../../_utilities/getMeUser'
 import { mergeOpenGraph } from '../../_utilities/mergeOpenGraph'
@@ -30,12 +29,12 @@ export default async function Login() {
       </div>
       <div className={classes.formWrapper}>
         <div className={classes.formContainer}>
-          <RenderParams className={classes.params}/> 
+          <RenderParams className={classes.params} />
           <div className={classes.formTitle}>
             <h3>Welcome</h3>
           </div>
           <p>Please login here</p>
-          <LoginForm/> 
+          <LoginForm />
         </div>
       </div>
     </section>
